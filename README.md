@@ -38,7 +38,7 @@ Para apresentar o funcionamento deste sistema de expurgo realizei a criação de
 
    **Tabela de Teste que vai sofrer o Expurgo**
 
-   ```sql
+   ```sql     
       --
       -- Tabela para teste
       CREATE TABLE TESTE_EXPURGO 
@@ -64,7 +64,7 @@ Para apresentar o funcionamento deste sistema de expurgo realizei a criação de
 
     **Script de Carga para simular a quantidade de registros na tabela que vai sofrer expurgo**
     
-    ```sql
+   ```sql     
             
       --
       -- Realiza a carga de dados na tabela que vai sofrer expurgo
@@ -130,6 +130,7 @@ Para apresentar o funcionamento deste sistema de expurgo realizei a criação de
       
       END;
       /
-    ```
+
+   ```
 
    
